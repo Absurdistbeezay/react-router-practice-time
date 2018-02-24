@@ -1,7 +1,3 @@
-
-
-## React LifeCycles
-```javascript
 import React, {Component} from 'react';
 
 class Life extends Component{
@@ -13,7 +9,6 @@ class Life extends Component{
     componentWillMount(){
         console.log('3 before render');
     }
-
 
     //4: render jsx
 
@@ -30,4 +25,3 @@ class Life extends Component{
         console.log('after render');
     }
 }
-```
