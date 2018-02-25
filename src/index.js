@@ -20,8 +20,8 @@ const App = ()=>{
                 pathname:'/dashboard',
             }}>Dashboard</NavLink>
             <hr/>
-            
             </header>
+            
             <Switch>
            
            <Route path ="/post/:id/:username" component ={PostItem} />
